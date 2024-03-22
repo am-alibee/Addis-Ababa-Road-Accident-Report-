@@ -3,19 +3,28 @@ This repository contains a report analyzing road accidents in Addis Ababa, focus
 
 ## Table of contents
 
+- [Introduction](#introduction)
+- [Dataset Description](#datasetdescription)
+- [ETL (Extract, Transform and Load) Process](#etl-process)
+- [EDA (Exploratory Data Analysis)](#eda)
+- [Data Analysis and Visualization](#data-analysis-and-visualization)
+- [Analysis Findings](#analysis-findings)
+- [Recommendations](#recommendations)
 
-### Introduction
+---
+
+### Introduction <a name="introduction"></a>
 
 This report offers a comprehensive analysis of road accidents that have occurred in the city of Addis Ababa. It delves into the primary causes of these accidents and the prevalent conditions under which they occur, as well as the demographics of the most commonly affected drivers.
 
 The analysis presented herein provides valuable insights into the patterns of accident occurrence within Addis Ababa. These insights hold significance for governmental bodies such as the state police and relevant ministries, as they can inform the development of policies, measures, and interventions aimed at reducing the incidence of road accidents. Furthermore, such actions can contribute to the enhancement of safety measures, ultimately safeguarding lives and properties across the city.
 
-### Dataset Description
+### Dataset Description <a name="datasetdescription"></a>
 
 The dataset utilized for this analysis was sourced from Kaggle and comprises two versions: the cleaned dataset and the raw, unprocessed dataset. The cleaned version was used for analysis after undergoing several transformations to ensure its compatibility and suitability. The link to the dataset can be found [here](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents).
 
 
-### ETL(Extract, Transform and Load) Process
+### ETL(Extract, Transform and Load) Process <a name="etl-process"></a>
 
 The extraction of the dataset was conducted using Power Query to facilitate data transformation and preparation. The dataset encompasses road accidents within the sub-city of Addis Ababa, comprising 20 columns and 10,000 rows. It includes details about drivers, victims, including incidents involving animals, as well as road and weather conditions at the time of the accidents, along with collision dimensions.
 
@@ -27,13 +36,13 @@ Transformation of the dataset was executed within Power Query. The process comme
 
 These profiling procedures proved instrumental in identifying various cleaning tasks required for the dataset. For instance, an issue was discovered within the "Driving Experience" column, which contained two variations of the "Unknown" value due to differences in case. This discrepancy was rectified utilizing Power Query's replace function, ensuring data consistency and integrity.
 
-### (EDA) Exploratory Data Analysis
+### (EDA) Exploratory Data Analysis <a name="eda"></a>
 
 To gain a comprehensive understanding of the dataset, an initial exploratory analysis was conducted using Power BI. This analysis aimed to comprehend the data structure and identify pertinent facts and dimensions for inclusion in the report.
 
 The dataset primarily consists of categorical variables. Therefore, a count approach was employed extensively to summarize the occurrences of different categories within these variables across the dataset. This facilitated the identification of patterns, trends, and distributions within the data, laying the groundwork for further analysis and insights.
 
-### Data Analysis and Visualization
+### Data Analysis and Visualization <a name="data-analysis-and-visualization"></a>
 
 This section delves into the data to address three primary questions, with visualization and presentation of the findings accomplished through Power BI to enhance audience comprehension. The main questions explored are as follows:
 
@@ -41,7 +50,7 @@ This section delves into the data to address three primary questions, with visua
 2. Under what road and weather conditions are road accidents prevalent?
 3. How does the collision frequently occur?
 
-### Analysis Findings
+### Analysis Findings <a name="analysis-findings"></a>
 
 #### __1. Driver Characteristics__
 -  Male drivers exhibited the highest involvement in road accidents, surpassing all other genders combined.
@@ -62,7 +71,7 @@ This section delves into the data to address three primary questions, with visua
 -  __"Going straight"__ emerged as the primary action leading to accidents, with minimal involvement from actions such as moving backward or reversing.
 -  __"Not a pedestrian"__ was the most common pedestrian involvement type, indicating a predominance of accidents involving non-pedestrian entities.
 
-### Recommendations
+### Recommendations <a name="recommendations"></a>
 
 #### **1. Targeted Driver Education and Training**
    - Implement targeted educational programs focusing on male drivers, particularly those aged 18-50, to raise awareness about safe driving practices and the risks associated with reckless behavior.
