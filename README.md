@@ -68,7 +68,7 @@ This section delves into the data to address three primary questions, with visua
 - Two-way divided lanes with a broken line marked the most common location for accidents, closely followed by undivided two-way lanes.
 
 #### __3. Collision Details__
--  Among the top five causes of accidents, instances of "no distancing," "changing lane to the right," and "changing lane to the left" were prevalent.
+-  Among the top five causes of accidents, instances of __"no distancing,"__ __"changing lane to the right,"__ and __"changing lane to the left"__ were prevalent.
 -  Vehicle-to-vehicle collisions were the most frequent collision type, followed by collisions with roadside objects, albeit with a notable difference in frequency.
 -  __"Going straight"__ emerged as the primary action leading to accidents, with minimal involvement from actions such as moving backward or reversing.
 -  __"Not a pedestrian"__ was the most common pedestrian involvement type, indicating a predominance of accidents involving non-pedestrian entities.
