@@ -1,6 +1,8 @@
 # Addis Ababa Road Accident Report
 This repository contains a report analyzing road accidents in Addis Ababa, focusing on prevalent causes and conditions contributing to accidents.
 
+![Accident image](https://storage.googleapis.com/kaggle-datasets-images/1145928/1921483/3677d9bb4af9c5e6e0673cd55d176928/dataset-cover.jpg?t=2021-02-08-12-24-19)
+
 ## Table of contents
 
 - [Introduction](#introduction)
